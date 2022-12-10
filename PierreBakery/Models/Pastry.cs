@@ -9,5 +9,10 @@ namespace PierresBakery.Models
     {
       PastryAmount = pastryAmount;
     }
+    
+    public int PastryTotal() {
+      int price = (((PastryAmount - (PastryAmount % 3)) / 3) * 5) + ((PastryAmount % 3) * 2);
+      return price;
+    }
   }
 }

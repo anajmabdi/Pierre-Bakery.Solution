@@ -13,7 +13,7 @@ namespace PierresBakery.Tests
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
     [TestMethod]
-    public void GetAmount_Return1_Int()
+    public void GetAmount_Return1_Bread()
     {
       //Arrange
       int bread = 1;
