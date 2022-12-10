@@ -34,5 +34,16 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(5, result);
     }
+    [TestMethod]
+    public void SetCost_ThreeLoafCost_BreadTotal() {
+      //Arrange
+      Bread newBread = new Bread(3);
+
+      //Act
+      int result = newBread.BreadTotal();
+
+      //Assert
+      Assert.AreEqual(10, result);
+    }
   }
 }

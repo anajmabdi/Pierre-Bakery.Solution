@@ -18,7 +18,8 @@ namespace PierresBakery.Models
       }
       else
       {
-        return 3;
+        int price = (BreadAmount - BreadAmount%3)/3 * 10 + (5*(BreadAmount%3));
+        return price;
       }
     }
   }
