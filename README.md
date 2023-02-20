@@ -32,9 +32,12 @@ Pastry: Buy 1 for $2 or 3 for $5. Four pastries costs $7, five pastries costs $9
 # <div align="center">Setup/Installation Requirements 
 <div align="center">1. Clone this repository to your desktop 
 <div align="center">2. Navigate to the top level of the directory
-<div align="center">3. Run 'dotnet restore'
-<div align="center">4. Run 'dotnet build'
-<div align="center">5. Run 'dotnet run --project PierreBakery'
+<div align="center">3. Run 'dotnet restore' to restore dependencies and tools in project file.
+<div align="center">5. Run 'dotnet test PierreBakery.Tests' to run tests.
+<div align="center">4. Run 'dotnet build' to build project and it's dependencies.
+<div align="center">5. Run 'dotnet run --project PierreBakery' to run application.
+
+
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
