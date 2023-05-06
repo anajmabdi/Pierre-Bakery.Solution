@@ -4,7 +4,8 @@
 <p>&nbsp;</p>
 
 # <div align="center"> Technologies Used
-<div align="center">* C#
+<div align="center">* C# .NET 6.0
+<div align="center">* MSTest
 
 <p>&nbsp;</p>
 
